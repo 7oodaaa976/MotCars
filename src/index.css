@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Lateef:wght@200;300;400;500;600;700;800&family=Rakkas&display=swap");
+
+.active {
+  border-bottom: 2px solid green !important;
+  display: inline-block !important;
+  transition: all 1.2s ease-in-out !important;
+}
+body {
+  background-color: #0e0b0b !important;
+  color: #ffffff !important;
+  font-family: "Lateef", serif !important;
+  font-size: 2rem !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rakkas", serif;
+}
+nav {
+  background-color: #111827;
+}
+.logo {
+  text-decoration: none;
+  font-family: "Aref Ruqaa", serif;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 3px 4px;
+}
+
+.item {
+  background-color: #1e293b !important;
+  transition: all 0.5s ease-in-out;
+}
+.item:hover {
+  background-color: #14b8a6 !important;
+  color: green !important;
+}
