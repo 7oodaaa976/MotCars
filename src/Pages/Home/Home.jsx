@@ -26,7 +26,7 @@ const Home = () => {
       />
       <div className='btns d-flex gap-3'>
         <Link  className='bg-danger px-4 rounded-3 text-decoration-none fs-1 text-warning' to="cars">سيارات</Link>
-        <Link  className='bg-danger px-4 rounded-3 text-decoration-none fs-1 text-warning' to="cars">موتوسكلات</Link>
+        <Link  className='bg-danger px-4 rounded-3 text-decoration-none fs-1 text-warning' to="motors">موتوسكلات</Link>
 
 
       </div>
